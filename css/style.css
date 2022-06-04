@@ -1,0 +1,45 @@
+html {
+   box-sizing: border-box;
+   font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: inherit;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   color: white;
+   font-family: "Poppins", sans-serif;
+}
+
+/* Header styles  */
+.header {
+   height: 80px;
+   background-color: #be3144;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.header-nav {
+   display: flex;
+   margin-right: 26px;
+   height: 100%;
+}
+
+.header-nav > a {
+   padding-inline: 16px;
+   text-decoration: none;
+   color: white;
+   font-weight: 400;
+   font-size: 26px;
+   padding-top: 20px;
+}
+
+.header-nav > a:hover {
+   background-color: rgb(111, 111, 216);
+}
